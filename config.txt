@@ -1,0 +1,14 @@
+cores = 4
+runs = 20
+distribution = exponential
+mean_service_time = 160
+mean_arrival_time = 10
+mean_timeout_time = 1000
+mean_think_time = 4000
+time_quantum = 90
+context_switching_time = 10
+max_no_threads = 100
+users = 150
+simulation_end = 12000
+buffer_size = 50
+print_log = 0
